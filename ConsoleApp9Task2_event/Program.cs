@@ -9,7 +9,7 @@ namespace ConsoleApp9Task2_event
             Console.WriteLine("Сработал мой тип исключений");
         }
 
-        public MyException(string message)
+        public MyException(string message) 
             : base(message)
         { }
     }
